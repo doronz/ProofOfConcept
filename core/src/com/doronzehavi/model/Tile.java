@@ -1,4 +1,4 @@
-package com.doronzehavi.android.model;
+package com.doronzehavi.model;
 
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
