@@ -6,6 +6,11 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
+/**
+ * This is the main application code. It it includes a listener that calls the appropriate methods
+ * based on the changes to the game's state (such as pausing and resizing). It also contains the
+ * main game loop, render().
+ */
 public class ProofOfConcept extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
@@ -29,6 +34,7 @@ public class ProofOfConcept extends ApplicationAdapter {
 
     /**
      * Called when the application goes into the background.
+     * A good place to save the game state.
      */
     @Override
     public void pause() {
